@@ -147,7 +147,7 @@ class graphite::params {
         $pyopenssl       = 'pyOpenSSL'
         $apache_wsgi_pkg = 'mod_wsgi'
         $pytz            = 'python-tzlocal'
-        $python_pip_pkg  = 'python-pip'
+        $python_pip_pkg  = 'python2-pip'
       }
 
       $python_dev_pkg = ["${python}-devel", 'gcc']
